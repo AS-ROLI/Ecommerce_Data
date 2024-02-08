@@ -16,8 +16,8 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
 
-application = Flask(__name__) # initializing a flask app
-app=application
+app = Flask(__name__) # initializing a flask app
+
 
 @app.route('/',methods=['GET'])  # route to display the home page
 @cross_origin()
